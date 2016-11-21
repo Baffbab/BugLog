@@ -14,7 +14,7 @@ function CommitFiles(proc, parms) {
     catch (errComit) {
         //We can just ignore this stuff...
         console.log('Proc error:' + proc,parms);
-        // console.log(errComit);
+      
     }
 }
 
